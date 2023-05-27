@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Number Guessing Game</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Make your Guess <br> (1-5)</h1>
+        <div class="random_number">
+            <h1 class="number" id="number">0</h1>
+        </div>
+            <div class="score-points">
+                <p class="Score" id="Score">score:<p class="score_number" id="score_number">&nbsp;100</p></p>
+            </div>
+            <p class="large_warning hidden" id="large_warning">*Please type a number less than 5*</p>
+            <p class="noinput_warning hidden" id="noinput_warning">*Please guess a number to play*</p>
+            <div class="input-container">
+                <input class="input" id="input" type="number" placeholder="Guess..." required>
+            </div>
+            <div class="btncontainer">
+                <button id="button">Go</button>
+            </div>
+        </div>
+    </div>
+    <dialog class="modal" id="modal">
+        <h1 class="modal_header">Game Over</h1>
+        <h2>You lose. &#128531 </h2>
+        <p>Good Game, come back and try again next time!</p>
+        <button class="closemdlbtn" id="closemdlbtn">Try agin!</button>
+    </dialog>
+</body>
+<script src="main.js"></script>
+</html>
