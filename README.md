@@ -4,6 +4,6 @@ Created with HTM/CSS & JavaScript, this is an interactive game with a score, ani
  # Goals
  ---------
 - show understanding of (if/else if) statements
-- show css class control and dom minipulation
+- show css class control and DOM minipulation
 - show attention to detail for small effects and animations
 - show use of animated feedback
